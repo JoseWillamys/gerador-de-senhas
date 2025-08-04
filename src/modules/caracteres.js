@@ -1,3 +1,4 @@
+// caracteres que serão usados para gerar as senhas 
 const alfabeto = 'abcdefghijklmnopqrstuvwxyz';
 const numeros = '0123456789';
 const caracteresEspeciais = '!@#$%&?/|:;><{[}]_-=+*';
