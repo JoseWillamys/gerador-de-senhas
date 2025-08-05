@@ -64,3 +64,32 @@ form button {
 form button:hover {
     background: var(--primary-color-darker);
 }
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+#quantidade {
+    width: 50px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.senha {
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: bold;
+    color: white;
+    font-size: 20pt;
+}
+
+.gerar-senha {
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 30px;
+}

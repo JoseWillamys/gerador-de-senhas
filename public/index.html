@@ -10,15 +10,33 @@
 </head>
 
 <body>
-
     <section class="container">
-        <h1>Lorem ipsum dolor sit amet</h1>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Repellendus nisi explicabo saepe voluptatibus consequuntur et corporis
-            maxime quos, doloribus vitae voluptatum quisquam necessitatibus
-            pariatur veritatis exercitationem beatae officiis suscipit Ea!
-        </p>
+        <h1>Gerador de senha</h1>
+        <p class="senha">*********</p>
+        <div class="flex-box">
+            <label for="quantidade">
+                Quantidade de caracteres
+                <input type="number" id="quantidade">
+            </label>
+            <label for="opcoes">
+                Números
+                <input type="checkbox" id="opcoes" class="opcoes" value="n">
+            </label>
+            <label for="opcoes2">
+                Letras minúsculas
+                <input type="checkbox" id="opcoes2" class="opcoes" value="m">
+            </label>
+            <label for="opcoes3">
+                Letras maúsculas
+                <input type="checkbox" id="opcoes3" class="opcoes" value="M">
+            </label>
+            <label for="opcoes4">
+                Caracteres especiais
+                <input type="checkbox" id="opcoes4" class="opcoes" value="#">
+            </label>
+            <button class="gerar-senha">Gerar senha</button>
+        </div>
+    </section>
 </body>
 
 </html>
